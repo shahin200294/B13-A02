@@ -124,6 +124,12 @@
     background-color: none;
 
 }
+.podcast-container{
+    max-width: 100%;
+}
+.social-media ul li a img{
+    width: 1rem;
+}
 
 /* .count-container{
     display: grid;
@@ -177,6 +183,10 @@
     position: absolute;
     bottom: 30px;
     }
+    .podcast-container{
+    max-width: 100%;
+    }
+   
 }
 
     @media screen and (min-width: 576px) and (max-width: 992px) {}
