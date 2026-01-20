@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment-02 TechWave</title>
 
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
     <link rel="stylesheet" href="styles/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,20 +21,83 @@
 </head>
 
 <body class="inter-font">
+    <!-- nav section -->
     <header>
         <nav class="navber">
-            <h2>Tech<span>Wave</span></h2>
-                <div class="nav-menu">
-                    <ul class="menu">
-                        <li><a href="">About</a></li>
-                        <li><a href="">Episodes</a></li>
-                        <li><a href="">Host</a></li>
-                    </ul>
-                </div>
-                <button class="primary-btn-2">Subscribe <i class="fa-solid fa-arrow-right"></i></button>
-                <img class="hamburger-menu" src="./assets/hamburger-menu.png" alt="">
+            <h2 class="text-4xl">Tech<span class="text-">Wave</span></h2>
+            <div class="nav-menu">
+                <ul class="menu">
+                    <li><a href="">About</a></li>
+                    <li><a href="">Episodes</a></li>
+                    <li><a href="">Host</a></li>
+                </ul>
+            </div>
+            <button class="primary-btn-2">Subscribe <i class="fa-solid fa-arrow-right"></i></button>
+            <img class="hamburger-menu" src="./assets/hamburger-menu.png" alt="">
         </nav>
     </header>
+
+    <main>
+        <!-- hero section -->
+        <section class="hero-container">
+            <img class="hero-bg max-w-{100%}" src="./assets/hero-bg.png" alt="">
+            <div class="hero-img">
+                <img class="hero-circle" src="./assets/hero-circle.png" alt="">
+                <img class="hero-microphone" src="./assets/microphone.png" alt="">
+
+
+                 <div class="hero-contant">
+                <h2 class="text-4xl mb-3.5">TechWave</h2>
+                <p>Your daily dose of tech insights, productivity hacks, and personal growth</p>
+
+                <div class="primary-btn">
+                    <button class="primary-btn-2"><img class="w-4" src="./assets/spotify.png" alt="">Listen on Spotify</button>
+                    <button class="btn"><img src="./assets/message.png" alt="">Subscribe</button>
+                </div>
+            </div>
+            </div>
+        </section>
+
+         <section class="podcast-container justify-center align-center bg-[#1A0B2E]">
+            <div>
+                <h1 class="text-4xl font-bold text-white mb-10 text-center">About the Podcast</h1>
+                <p class="text-white text-center leading-8 mb-10">TechWave is your go-to podcast for staying ahead in the fast-paced world of technology. <br>
+                    We break down complex topics into digestible insights, explore productivity strategies that actually
+                    work,<br>
+                    and share stories of personal growth from industry leaders. <br>
+                    <br>
+                    Join thousands of young professionals and tech enthusiasts who start their day with TechWave.
+                </p>
+            </div>
+
+            <hr class="text-white max-w-[300] mb-10">
+
+            <div class="count-container grid grid-cols-4 justify-center-safe ml-35 mb-10 gap-1">
+               <div class="count-card">
+                <h2 class="text-[#00FF88] text-4xl font-bold mb-2">150K+</h2>
+                <p class="text-white ">Monthly Listeners</p>
+               </div>
+               <div class="count-card">
+                <h2 class="text-[#00FF88] text-4xl font-bold mb-2">150K+</h2>
+                <p class="text-white ">Monthly Listeners</p>
+               </div>
+               <div class="count-card">
+                <h2 class="text-[#00FF88] text-4xl font-bold mb-2">150K+</h2>
+                <p class="text-white ">Monthly Listeners</p>
+               </div>
+               <div class="count-card">
+                <h2 class="text-[#00FF88] text-4xl font-bold mb-2">150K+</h2>
+                <p class="text-white ">Monthly Listeners</p>
+               </div>
+            </div>
+            
+        </section>
+    </main>
+
+
+    <footer>
+        <h2>Tech<span>Wave</span></h2>
+    </footer>
 </body>
 
 </html>
